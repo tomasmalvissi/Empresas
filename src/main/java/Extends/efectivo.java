@@ -49,7 +49,7 @@ public class efectivo extends empleado{
     
     public double calcularSalario(){
         double resp=0;
-        return resp;        
+        return resp;         
     }
     
 }
