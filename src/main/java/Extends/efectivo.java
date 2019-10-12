@@ -48,7 +48,11 @@ public class efectivo extends empleado{
     }
     
     public double calcularSalario(){
-        double resp=0;
+        double resp;
+        resp = basico + (antig/100);
+        if (reparto) {
+            resp = resp - (20/100);
+        }
         return resp;         
     }
     
